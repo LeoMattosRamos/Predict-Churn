@@ -1,0 +1,16 @@
+# Ignorar ambiente virtual
+venv/
+env/
+.env/
+.venv/
+
+# Ignorar cache do Python
+__pycache__/
+*.pyc
+
+# Ignorar configs do VS Code
+.vscode/
+
+# Outros arquivos desnecessários
+*.log
+.DS_Store
