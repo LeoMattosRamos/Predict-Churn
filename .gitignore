@@ -1,6 +1,11 @@
 # Ignorar ambiente virtual
-venv/
 env/
 .env/
 .venv/
-
+*.csv
+*.xlsx
+*.db
+*.pkl
+venv/
+mlruns/
+mlartifacts/
