@@ -1,4 +1,5 @@
 SELECT 
+    DATE('2024-07-04') AS Dt_ref,
     A.idCustomer,
     ROUND(SUM(CASE WHEN B.NameProduct = 'ChatMessage' THEN A.pointsTransaction ELSE 0 END)*1.0/SUM(A.pointsTransaction),2) AS ChatMessage,
     ROUND(SUM(CASE WHEN B.NameProduct = 'Resgatar Ponei' THEN A.pointsTransaction ELSE 0 END)*1.0/SUM(A.pointsTransaction),2)  AS Resgatar_Ponei,
@@ -12,5 +13,7 @@ WHERE B.NameProduct IN ('ChatMessage','Resgatar Ponei','Lista de presença','Pre
       AND dtTransaction >= DATE('2024-07-04','-21 DAY')
       AND dtTransaction < '2024-07-04'
     
-GROUP BY 1
+GROUP BY 2
+
+
 
