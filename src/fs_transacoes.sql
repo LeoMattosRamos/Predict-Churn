@@ -43,7 +43,6 @@ Media_transacao_dias AS (
 SELECT *, ROUND(AVG(julianday(DATE(dtTransaction)) - julianday (Dt_anterior)),2) as intervalo_days_transactions
 
 FROM lag_data
-WHERE Dt_anterior IS NOT NULL
 GROUP BY idCustomer
 )
 
@@ -61,6 +60,7 @@ SELECT
 FROM transacoes A
 LEFT JOIN Media_transacao_dias B
 ON A.idCustomer = B.idCustomer
-WHERE B.intervalo_days_transactions IS NOT NULL
+
+
 
 

@@ -22,3 +22,6 @@ FROM transactions
 WHERE dtTransaction < '{date}'
 AND dtTransaction >= DATE('{date}','-21 DAY')
 GROUP BY 2
+
+
+

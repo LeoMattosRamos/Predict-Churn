@@ -37,3 +37,4 @@ ON A.idCustomer = B.idCustomer
 
 
 
+
