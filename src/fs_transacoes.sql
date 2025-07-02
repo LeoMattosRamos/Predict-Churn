@@ -1,22 +1,22 @@
 WITH transacoes AS (
 SELECT 
-    DATE('2024-07-04') AS Dt_ref,
+    DATE('{date}') AS Dt_ref,
     idCustomer,
     COUNT(idTransaction) AS Qtd_transacao_21,
-    COUNT(CASE WHEN dtTransaction >=DATE('2024-07-04','-14 DAY')
+    COUNT(CASE WHEN dtTransaction >=DATE('{date}','-14 DAY')
         THEN idTransaction END) AS Qtd_transacao_14,
-    COUNT(CASE WHEN dtTransaction >=DATE('2024-07-04','-7 DAY')
+    COUNT(CASE WHEN dtTransaction >=DATE('{date}','-7 DAY')
         THEN idTransaction END) AS Qtd_transacao_7,
     
     COUNT(DISTINCT(DATE(dtTransaction))) AS Qtd_dias_interacao_21,
-    COUNT(DISTINCT CASE WHEN dtTransaction >=DATE('2024-07-04','-14 DAY')
+    COUNT(DISTINCT CASE WHEN dtTransaction >=DATE('{date}','-14 DAY')
         THEN DATE(dtTransaction) END) AS Qtd_dias_interacao_14,
-    COUNT(DISTINCT CASE WHEN dtTransaction >=DATE('2024-07-04','-07 DAY')
+    COUNT(DISTINCT CASE WHEN dtTransaction >=DATE('{date}','-07 DAY')
         THEN DATE(dtTransaction) END) AS Qtd_dias_interacao_7
 
 FROM transactions
-WHERE dtTransaction < '2024-07-04'
-AND dtTransaction >= DATE('2024-07-04','-21 DAY')
+WHERE dtTransaction < '{date}'
+AND dtTransaction >= DATE('{date}','-21 DAY')
 GROUP BY idCustomer
 ),
 

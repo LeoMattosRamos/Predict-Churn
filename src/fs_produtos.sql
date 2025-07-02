@@ -1,5 +1,5 @@
 SELECT 
-    DATE('2024-07-04') AS Dt_ref,
+    DATE('{date}') AS Dt_ref,
     A.idCustomer,
     ROUND(SUM(CASE WHEN B.NameProduct = 'ChatMessage' THEN A.pointsTransaction ELSE 0 END)*1.0/SUM(A.pointsTransaction),2) AS ChatMessage,
     ROUND(SUM(CASE WHEN B.NameProduct = 'Resgatar Ponei' THEN A.pointsTransaction ELSE 0 END)*1.0/SUM(A.pointsTransaction),2)  AS Resgatar_Ponei,
@@ -10,8 +10,8 @@ FROM transactions A
 LEFT JOIN transactions_product B
 ON A.idTransaction = B.idTransaction
 WHERE B.NameProduct IN ('ChatMessage','Resgatar Ponei','Lista de presença','Presença Streak')
-      AND dtTransaction >= DATE('2024-07-04','-21 DAY')
-      AND dtTransaction < '2024-07-04'
+      AND dtTransaction >= DATE('{date}','-21 DAY')
+      AND dtTransaction < '{date}'
     
 GROUP BY 2
 
