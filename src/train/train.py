@@ -10,7 +10,7 @@ from sklearn import ensemble
 from sklearn import tree
 import scikitplot as skplt
 import mlflow
-
+from sklearn.naive_bayes import GaussianNB
 
 
 CREATE_ENGINE = sqlalchemy.create_engine("sqlite:///../../data/feature_store.db")
@@ -65,11 +65,15 @@ X_analise.sort_values("diff_%", ascending=False)
 
 model = ensemble.RandomForestClassifier(random_state=42)
 
+
+
 params = {"model__min_samples_leaf":[10,20,30,40,50,100,200],
           "model__max_depth": [2,4,5,6,8,10,15,20],
           "model__criterion": ["gini", "entropy"],
           "model__n_estimators": [10,20,50,100,200,300]
           }
+
+
 
 
 model_pipeline = pipeline.Pipeline(
