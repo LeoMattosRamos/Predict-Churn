@@ -12,9 +12,9 @@ LEFT JOIN fs_geral B
 ON A.idCustomer = B.idCustomer
 AND A.Dt_ref = DATE(B.Dt_ref, "-21 DAY")
 
-WHERE A.Dt_ref < DATE("2024-06-01","-21 DAY") /* Garantir base maturada (data mais recente -21 dias)*/
+WHERE A.Dt_ref < DATE("2024-07-01","-21 DAY") /* Garantir base maturada (data mais recente -21 dias)*/
 AND strftime("%d", A.Dt_ref) = '01' /* Diminuir viés de usuários com muita interação - considearar as features 1 vez no mês para cada usuário - considera apenas dia 01 de cada mês)*/
-OR A.Dt_ref = DATE("2024-06-01") /* Usar como base out of time */
+OR A.Dt_ref = DATE("2024-07-01","21 DAY") /* Usar como base out of time */
 )
 
 SELECT 
@@ -58,9 +58,8 @@ AND A.Dt_ref = D.Dt_ref
 LEFT JOIN fs_transacoes E
 ON A.idCustomer = E.idCustomer
 AND A.Dt_ref = E.Dt_ref
-
-
-
+GROUP BY A.Dt_ref,
+      A.idCustomer
 
 
 
