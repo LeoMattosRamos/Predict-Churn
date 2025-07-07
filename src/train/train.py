@@ -125,15 +125,15 @@ with mlflow.start_run():
            "recall_oot": recall_oot}
      )
 
-print(f"acc_treino: {acc_treino}")
-print(f"acc_test: {acc_test}")
-print(f"roc: {roc}")
-print(f"recall: {recall_teste}")
-print(f"precision_teste: {precision_test}")
-print(f"roc_oot: {roc_oot}")
-print(f"acc_oot: {acc_oot}")
-print(f"recall_oot: {recall_oot}")
-print(f"precision_oot: {precision_oot}")
+# print(f"acc_treino: {acc_treino}")
+# print(f"acc_test: {acc_test}")
+# print(f"roc: {roc}")
+# print(f"recall: {recall_teste}")
+# print(f"precision_teste: {precision_test}")
+# print(f"roc_oot: {roc_oot}")
+# print(f"acc_oot: {acc_oot}")
+# print(f"recall_oot: {recall_oot}")
+# print(f"precision_oot: {precision_oot}")
 
 
 confusion_matrix_teste = skplt.metrics.plot_confusion_matrix(y_test, y_pred_test)

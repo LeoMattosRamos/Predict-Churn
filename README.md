@@ -62,6 +62,14 @@ Esse tipo de modelo preditivo pode ser uma ferramenta estratégica para as equip
 
 Sou engenheiro de formação com trajetória que une vendas técnicas e análise de dados. Atualmente atuo com **Business Intelligence** e estou me especializando em **Machine Learning**, com projetos práticos como este para aplicar modelos preditivos que gerem impacto real no negócio.
 
+---
+
+## 📚 Referências
+
+Este projeto foi inspirado e adaptado com base no projeto original do Teo Calvo, que é um professor de diversos assuntos de dados/tecnologia, incluindo Machine Learning.
+
+---
+
 [➡️ Acesse meu LinkedIn](https://www.linkedin.com/in/leonardo-de-mattos-ramos-252433199/)
 
 ---
