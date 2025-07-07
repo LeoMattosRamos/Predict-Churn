@@ -1,23 +1,3 @@
-# Projeto ML - Previsão Churn
-
-Projeto de Machine Learning com o objetivo de prever quais clientes tem maior probabilidade de deixarem de consumir o produto.
-
-Projeto visa prever quais usuários tem maior probabilidade de deixarem de consumir o produto após 21 dias.
-Esse tipo de modelo preditivo pode ser uma ferramenta poderosa para as equipes de Marketing e Vendas: permite ações direcionadas de caráter preditivo a clientes específicos que tem mais chance de deixar de consumir o produto da empresa.
-
-Ou seja, o foco é utilizar dados com Machine Learning para prever e evitar a perda de clientes.
-
-
-## Etapas do projeto
-- Construção das Features a partir da base de dados (SQL+Python);
-- Processamento das safras;
-- Construção da variável resposta (target);
-- Construção da ABT (*Analytical Base Table*);
-- Treinamento de modelos preditivos;
-- Análise das métricas do modelo;
-- Deploy;
-- Predição utilizando o modelo treinado;
-
 
 # 🔍 Projeto de Machine Learning — Previsão de Churn
 
@@ -39,9 +19,9 @@ Esse tipo de modelo preditivo pode ser uma ferramenta estratégica para as equip
 
 - **Linguagens**: Python, SQL  
 - **Bibliotecas**: Pandas, Scikit-learn, Numpy
-- **Modelagem**: Random Forest, Logistic Regression, GridSearchCV  
+- **Modelagem**: Random Forest, Logistic Regression, Naive Bayes, GridSearchCV  
 - **Experiment Tracking**: MLflow  
-- **Extras**: Git, Power BI (exploração de dados)
+- **Extras**: Git
 
 ---
 
@@ -53,8 +33,8 @@ Esse tipo de modelo preditivo pode ser uma ferramenta estratégica para as equip
 4. **Criação da ABT (Analytical Base Table)**
 5. **Treinamento de modelos preditivos**
 6. **Otimização de hiperparâmetros com GridSearchCV**
-7. **Avaliação com métricas como ROC AUC, Precision, Recall e F1-Score**
-8. **Ajuste de threshold com foco em Recall (redução de falsos negativos)**
+7. **Avaliação com métricas como Precision, Recall, Accuracy, ROC e F1-Score**
+8. **Possível ajuste de threshold com foco em Recall (redução de falsos negativos)**
 9. **Rastreamento de experimentos com MLflow**
 10. **Deploy local do modelo final**
 11. **Predição em novos dados**
@@ -74,7 +54,7 @@ Esse tipo de modelo preditivo pode ser uma ferramenta estratégica para as equip
 
 - Deploy via API (Flask ou FastAPI)
 - Integração com Power BI para monitoramento em tempo real
-- Testes com modelos mais modelos (XGBoost, LightGBM)
+- Testes com modelos mais modelos (XGBoost, LightGBM, etc).
 
 ---
 
