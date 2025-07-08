@@ -54,7 +54,7 @@ Esse tipo de modelo preditivo pode ser uma ferramenta estratégica para as equip
 
 - Deploy via API (Flask ou FastAPI)
 - Integração com Power BI para monitoramento em tempo real
-- Testes com modelos mais modelos (XGBoost, LightGBM, etc).
+- Testes com mais modelos (XGBoost, LightGBM, etc).
 
 ---
 
@@ -70,7 +70,7 @@ Este projeto foi inspirado e adaptado com base no projeto original do Teo Calvo,
 
 ---
 
-[➡️ Acesse meu LinkedIn](https://www.linkedin.com/in/leonardo-de-mattos-ramos-252433199/)
+[![alt text](image.png) Acesse meu LinkedIn](https://www.linkedin.com/in/leonardo-de-mattos-ramos-252433199/)
 
 ---
 
