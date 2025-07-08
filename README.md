@@ -70,7 +70,11 @@ Este projeto foi inspirado e adaptado com base no projeto original do Teo Calvo,
 
 ---
 
-[![alt text](image.png) Acesse meu LinkedIn](https://www.linkedin.com/in/leonardo-de-mattos-ramos-252433199/)
+<a href="https://www.linkedin.com/in/leonardo-de-mattos-ramos-252433199/" target="_blank">
+  <img src="image.png" alt="Acesse meu LinkedIn" width="40" style="vertical-align:middle;"/>
+  <span style="margin-left: 8px;">Acesse meu LinkedIn</span>
+</a>
+
 
 ---
 
