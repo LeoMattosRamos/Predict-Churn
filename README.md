@@ -71,7 +71,7 @@ Este projeto foi inspirado e adaptado com base no projeto original do Teo Calvo,
 ---
 
 <a href="https://www.linkedin.com/in/leonardo-de-mattos-ramos-252433199/" target="_blank">
-  <img src="image.png" alt="Acesse meu LinkedIn" width="40" style="vertical-align:middle;"/>
+  <img src="https://cdn-icons-png.flaticon.com/512/2504/2504923.png" alt="Acesse meu LinkedIn" width="40" style="vertical-align:middle;"/>
   <span style="margin-left: 8px;">Acesse meu LinkedIn</span>
 </a>
 
