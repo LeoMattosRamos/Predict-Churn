@@ -60,7 +60,9 @@ Esse tipo de modelo preditivo pode ser uma ferramenta estratégica para as equip
 
 ## 🧠 Sobre o Autor
 
-Sou engenheiro de formação com trajetória que une vendas técnicas e análise de dados. Atualmente atuo com **Business Intelligence** e estou me especializando em **Machine Learning**, com projetos práticos como este para aplicar modelos preditivos que gerem impacto real no negócio.
+📌 Leonardo Ramos – [LinkedIn](https://www.linkedin.com/in/leonardo-de-mattos-ramos-252433199/)
+
+Engenheiro com trajetória em vendas técnicas e dados. Atualmente atuo com BI e estou me especializando em Machine Learning com foco em impacto real no negócio.
 
 ---
 
