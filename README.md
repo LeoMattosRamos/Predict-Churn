@@ -62,21 +62,13 @@ Esse tipo de modelo preditivo pode ser uma ferramenta estratégica para as equip
 
 📌 Leonardo Ramos – [LinkedIn](https://www.linkedin.com/in/leonardo-de-mattos-ramos-252433199/)
 
-Engenheiro com trajetória em vendas técnicas e dados. Atualmente atuo com BI e estou me especializando em Machine Learning com foco em impacto real no negócio.
+Engenheiro com trajetória em vendas técnicas e dados. Atualmente atuo em Business Intelligence e estou me especializando em Machine Learning com foco em impacto real no negócio.
 
 ---
 
 ## 📚 Referências
 
 Este projeto foi inspirado e adaptado com base no projeto original do Teo Calvo, que é um professor de diversos assuntos de dados/tecnologia, incluindo Machine Learning.
-
----
-
-<a href="https://www.linkedin.com/in/leonardo-de-mattos-ramos-252433199/" target="_blank">
-  <img src="https://cdn-icons-png.flaticon.com/512/2504/2504923.png" alt="Acesse meu LinkedIn" width="40" style="vertical-align:middle;"/>
-  <span style="margin-left: 8px;">Acesse meu LinkedIn</span>
-</a>
-
 
 ---
 
